@@ -77,7 +77,7 @@ class _JoelPageState extends State<JoelPage> {
                           ),
                           clipBehavior: Clip.antiAlias,
                           child: Image.asset(
-                            'images/joel.png',
+                            'images/joel.jpg',
                             height: 120,
                             width: 120,
                             fit: BoxFit.cover,

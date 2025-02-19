@@ -77,7 +77,7 @@ class _JcPageState extends State<JcPage> {
                           ),
                           clipBehavior: Clip.antiAlias,
                           child: Image.asset(
-                            'images/jc.png',
+                            'images/jc.jpg',
                             height: 120,
                             width: 120,
                             fit: BoxFit.cover,
