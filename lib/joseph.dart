@@ -319,6 +319,62 @@ class _JosephPageState extends State<JosephPage> {
                           }),
                     ],
                   ),
+
+                  //PROFESSIONAL SUMMARRY
+                  SizedBox(height: 15),
+                  Row(
+                    children: [
+                      Text(
+                        "Professional Summary",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: CupertinoColors.systemBlue),
+                      ),
+                    ],
+                  ),
+                  Divider(),
+                  SizedBox(height: 10),
+
+                  Row(
+                    children: [
+                      Flexible(
+                          child: Text(
+                        "I’m a third-year Bachelor of Science in Information Technology student with "
+                        "a strong background in mobile app development using Flutter and Dart, "
+                        "web development with PHP, CodeIgniter 4, Bootstrap 5, JavaScript, and SQL"
+                        ", and Windows Forms applications in C#. I’m eager to explore part-time or"
+                        " freelance opportunities that will allow me to apply and enhance my skills",
+                        textAlign: TextAlign.justify,
+                        style: TextStyle(fontSize: 16),
+                      )),
+                    ],
+                  ),
+
+                  //WORK EXPERIENCE
+                  SizedBox(height: 30),
+                  Row(
+                    children: [
+                      Text(
+                        "Work Experience",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: CupertinoColors.systemBlue),
+                      ),
+                    ],
+                  ),
+                  Divider(),
+                  SizedBox(height: 10),
+
+                  Row(
+                    children: [
+                      Flexible(
+                          child: Text(
+                        "With experience in developing and maintaining web applications using PHP, JavaScript, and multiple PHP frameworks, I collaborated with cross-functional teams to create and implement new features. My role also involved working with MySQL and SQL databases to ensure efficient data management and support the application’s requirements.",
+                        textAlign: TextAlign.justify,
+                        style: TextStyle(fontSize: 16),
+                      )),
+                    ],
+                  ),
                 ],
               ),
             ),
