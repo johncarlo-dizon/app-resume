@@ -319,6 +319,64 @@ class _JomelPageState extends State<JomelPage> {
                           }),
                     ],
                   ),
+
+                  //PROFESSIONAL SUMMARRY
+                  SizedBox(height: 15),
+                  Row(
+                    children: [
+                      Text(
+                        "Professional Summary",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: CupertinoColors.systemBlue),
+                      ),
+                    ],
+                  ),
+                  Divider(),
+                  SizedBox(height: 10),
+
+                  Row(
+                    children: [
+                      Flexible(
+                          child: Text(
+                        "I am currently a third-year Bachelor of Science in Information "
+                        "Technology student with expertise in developing mobile "
+                        "applications using Flutter and Dart, as well as web "
+                        "systems utilizing PHP, CodeIgniter 4, Bootstrap 5, JavaScript, "
+                        "and SQL. Additionally, I have experience creating Windows Forms "
+                        "applications in C#. I am seeking part-time opportunities or "
+                        "freelance projects where I can leverage and expand my skills.",
+                        textAlign: TextAlign.justify,
+                        style: TextStyle(fontSize: 16),
+                      )),
+                    ],
+                  ),
+
+                  //WORK EXPERIENCE
+                  SizedBox(height: 30),
+                  Row(
+                    children: [
+                      Text(
+                        "Work Experience",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: CupertinoColors.systemBlue),
+                      ),
+                    ],
+                  ),
+                  Divider(),
+                  SizedBox(height: 10),
+
+                  Row(
+                    children: [
+                      Flexible(
+                          child: Text(
+                        "I developed and maintained web applications using PHP, JavaScript, and various PHP frameworks. I worked closely with cross-functional teams to design and implement new features, ensuring smooth integration and optimal functionality. Additionally, I handled databases like MySQL and SQL to manage data effectively and support the needs of the application",
+                        textAlign: TextAlign.justify,
+                        style: TextStyle(fontSize: 16),
+                      )),
+                    ],
+                  ),
                 ],
               ),
             ),
