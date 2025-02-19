@@ -319,6 +319,58 @@ class _JoelPageState extends State<JoelPage> {
                           }),
                     ],
                   ),
+
+                  //PROFESSIONAL SUMMARRY
+                  SizedBox(height: 15),
+                  Row(
+                    children: [
+                      Text(
+                        "Professional Summary",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: CupertinoColors.systemBlue),
+                      ),
+                    ],
+                  ),
+                  Divider(),
+                  SizedBox(height: 10),
+
+                  Row(
+                    children: [
+                      Flexible(
+                          child: Text(
+                        "I am a third-year Information Technology student with experience in mobile app development using Flutter and Dart, web development using PHP, CodeIgniter 4, Bootstrap 5, JavaScript, and SQL, and creating Windows Forms applications in C#. I’m looking for part-time or freelance opportunities where I can apply my skills and continue to grow.",
+                        textAlign: TextAlign.justify,
+                        style: TextStyle(fontSize: 16),
+                      )),
+                    ],
+                  ),
+
+                  //WORK EXPERIENCE
+                  SizedBox(height: 30),
+                  Row(
+                    children: [
+                      Text(
+                        "Work Experience",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: CupertinoColors.systemBlue),
+                      ),
+                    ],
+                  ),
+                  Divider(),
+                  SizedBox(height: 10),
+
+                  Row(
+                    children: [
+                      Flexible(
+                          child: Text(
+                        "In my role, I developed and maintained web applications using PHP, JavaScript, and various PHP frameworks. I partnered with cross-functional teams to design and implement new features, ensuring smooth integration. Additionally, I worked with MySQL and SQL databases to efficiently manage data and meet application needs.",
+                        textAlign: TextAlign.justify,
+                        style: TextStyle(fontSize: 16),
+                      )),
+                    ],
+                  ),
                 ],
               ),
             ),
