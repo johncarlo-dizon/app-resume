@@ -152,6 +152,173 @@ class _JomelPageState extends State<JomelPage> {
                     ],
                   ),
                   SizedBox(height: 15),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      //EDUCATION
+                      CupertinoButton(
+                          padding: EdgeInsets.zero,
+                          child: Icon(
+                            CupertinoIcons.book,
+                            color: Colors.deepPurple,
+                            size: 19,
+                          ),
+                          onPressed: () {
+                            showCupertinoDialog(
+                                context: context,
+                                builder: (context) {
+                                  return CupertinoAlertDialog(
+                                    title: Text(
+                                      'Education',
+                                      style: TextStyle(
+                                          color: CupertinoColors.systemBlue),
+                                    ),
+                                    content: Column(
+                                      children: [
+                                        Text(
+                                          "Bachelor of Science in Information Technology",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold),
+                                        ),
+                                        Text(
+                                            "Holy Cross College, 2022 - Present"),
+                                      ],
+                                    ),
+                                    actions: [
+                                      CupertinoButton(
+                                          child: Text(
+                                            'Close',
+                                            style: TextStyle(
+                                                color: CupertinoColors
+                                                    .destructiveRed),
+                                          ),
+                                          onPressed: () {
+                                            Navigator.pop(context);
+                                          })
+                                    ],
+                                  );
+                                });
+                          }),
+
+                      //SKILLS
+                      CupertinoButton(
+                          padding: EdgeInsets.zero,
+                          child: Icon(
+                            CupertinoIcons.star,
+                            color: Colors.deepPurple,
+                            size: 19,
+                          ),
+                          onPressed: () {
+                            showCupertinoDialog(
+                                context: context,
+                                builder: (context) {
+                                  return CupertinoAlertDialog(
+                                    title: Text(
+                                      'Education',
+                                      style: TextStyle(
+                                          color: CupertinoColors.systemBlue),
+                                    ),
+                                    content: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "Programming Language:",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold),
+                                        ),
+                                        Text(
+                                            "- PHP, Python, JavaScript, C#, C++"),
+                                        Text(
+                                          "Frameworks:",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold),
+                                        ),
+                                        Text(
+                                            "- CodeIgniter 4, Bootstrap 5, Express"),
+                                        Text(
+                                          "Database:",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold),
+                                        ),
+                                        Text("- MySQL, SQL"),
+                                      ],
+                                    ),
+                                    actions: [
+                                      CupertinoButton(
+                                          child: Text(
+                                            'Close',
+                                            style: TextStyle(
+                                                color: CupertinoColors
+                                                    .destructiveRed),
+                                          ),
+                                          onPressed: () {
+                                            Navigator.pop(context);
+                                          })
+                                    ],
+                                  );
+                                });
+                          }),
+
+                      //CONTACT
+                      CupertinoButton(
+                          padding: EdgeInsets.zero,
+                          child: Icon(
+                            CupertinoIcons.phone,
+                            color: Colors.deepPurple,
+                            size: 19,
+                          ),
+                          onPressed: () {
+                            showCupertinoDialog(
+                                context: context,
+                                builder: (context) {
+                                  return CupertinoAlertDialog(
+                                    title: Text(
+                                      'Contact',
+                                      style: TextStyle(
+                                          color: CupertinoColors.systemBlue),
+                                    ),
+                                    content: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "Facebook:",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold),
+                                        ),
+                                        Text("- Jomel Simbillo"),
+                                        Text(
+                                          "Tiktok:",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold),
+                                        ),
+                                        Text("- joms"),
+                                        Text(
+                                          "Github:",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold),
+                                        ),
+                                        Text("- jomel-guinto-simbillo"),
+                                      ],
+                                    ),
+                                    actions: [
+                                      CupertinoButton(
+                                          child: Text(
+                                            'Close',
+                                            style: TextStyle(
+                                                color: CupertinoColors
+                                                    .destructiveRed),
+                                          ),
+                                          onPressed: () {
+                                            Navigator.pop(context);
+                                          })
+                                    ],
+                                  );
+                                });
+                          }),
+                    ],
+                  ),
                 ],
               ),
             ),
