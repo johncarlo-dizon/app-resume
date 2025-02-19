@@ -380,6 +380,136 @@ class _JcPageState extends State<JcPage> {
                       )),
                     ],
                   ),
+
+                  //Portfolio
+                  SizedBox(height: 30),
+
+                  Row(
+                    children: [
+                      Text(
+                        "Portfolio",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: CupertinoColors.systemBlue),
+                      ),
+                    ],
+                  ),
+
+                  Row(
+                    children: [
+                      Text(
+                        "Here is one of the project I have worked on :",
+                        style: TextStyle(fontSize: 16),
+                      ),
+                    ],
+                  ),
+
+                  Divider(),
+                  SizedBox(height: 10),
+
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment
+                        .spaceEvenly, // Space out the items evenly
+                    children: [
+                      // First Container
+                      Flexible(
+                        flex:
+                            1, // You can adjust the flex values to change the weight of each container
+                        child: Container(
+                          constraints: BoxConstraints(
+                            minHeight: 50.0, // Minimum height
+                            maxHeight: 100.0, // Maximum height
+                          ),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          clipBehavior: Clip.antiAlias,
+                          child: Image.asset(
+                            "images/S2.jpeg",
+                            height: MediaQuery.of(context).size.width *
+                                0.3, // Adjust image height based on screen width
+                            width: MediaQuery.of(context).size.width *
+                                0.3, // Adjust image width based on screen width
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+
+                      // Second Container
+                      Flexible(
+                        flex: 1,
+                        child: Container(
+                          constraints: BoxConstraints(
+                            minHeight: 50.0,
+                            maxHeight: 100.0,
+                          ),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          clipBehavior: Clip.antiAlias,
+                          child: Image.asset(
+                            "images/S3.jpeg",
+                            height: MediaQuery.of(context).size.width * 0.3,
+                            width: MediaQuery.of(context).size.width * 0.3,
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+
+                  SizedBox(height: 10),
+
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment
+                        .spaceEvenly, // Space out the items evenly
+                    children: [
+                      // First Container
+                      Flexible(
+                        flex:
+                            1, // You can adjust the flex values to change the weight of each container
+                        child: Container(
+                          constraints: BoxConstraints(
+                            minHeight: 50.0, // Minimum height
+                            maxHeight: 100.0, // Maximum height
+                          ),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          clipBehavior: Clip.antiAlias,
+                          child: Image.asset(
+                            "images/S4.jpeg",
+                            height: MediaQuery.of(context).size.width *
+                                0.3, // Adjust image height based on screen width
+                            width: MediaQuery.of(context).size.width *
+                                0.3, // Adjust image width based on screen width
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+
+                      // Second Container
+                      Flexible(
+                        flex: 1,
+                        child: Container(
+                          constraints: BoxConstraints(
+                            minHeight: 50.0,
+                            maxHeight: 100.0,
+                          ),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          clipBehavior: Clip.antiAlias,
+                          child: Image.asset(
+                            "images/S5.jpeg",
+                            height: MediaQuery.of(context).size.width * 0.3,
+                            width: MediaQuery.of(context).size.width * 0.3,
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
             ),
